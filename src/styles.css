@@ -4,6 +4,21 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-sans: "Poppins", "Inter", system-ui, sans-serif;
+  --color-brand-green: #0d3b2e;
+  --color-brand-green-soft: #256956;
+  --color-brand-gold: #c2a55f;
+  --color-brand-gold-dark: #b29244;
+  --color-brand-cream: #e5dcc3;
+  --color-brand-cream-soft: #fef9ed;
+  --color-brand-teal: #61b29c;
+  --color-brand-highlight: #c7b55b;
+  --color-brand-ink: #1e1e1e;
+}
+
+
 /*
  * Design system definition.
  *
