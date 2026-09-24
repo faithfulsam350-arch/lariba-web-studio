@@ -1,14 +1,16 @@
-# Welcome to your Lovable project
+# Lariba Pay Desktop View
+
+@asset:da_01m38fq889eb0tmyt54x4xsz3m:"lariba pay desktop view" i want to make this website i already designed in figma i attached the image already. Can you help me turn it into a functional website i want you to make it as accurate as possibe carefully checking everything and making it work well and mobile responsive.
 
 This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/4d22ab45-ad72-4717-947e-bcbc8ea4fa35).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +22,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
