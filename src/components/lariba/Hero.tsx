@@ -6,18 +6,18 @@ import moonVector from "@/assets/lariba/vector.svg.asset.json";
 const Hero = () => {
   return (
     <section id="home" className="relative overflow-hidden bg-brand-teal/80">
-      <img
-        src={mosque.url}
-        alt=""
-        aria-hidden="true"
-        className="pointer-events-none absolute bottom-0 left-1/2 w-[130%] max-w-none -translate-x-1/2 opacity-70"
-      />
-      <img
-        src={coins.url}
-        alt=""
-        aria-hidden="true"
-        className="pointer-events-none absolute -top-40 left-0 w-[120%] max-w-none opacity-80"
-      />
+      <div className="pointer-events-none absolute inset-0" aria-hidden="true">
+        <img
+          src={mosque.url}
+          alt=""
+          className="absolute -left-[3%] top-[6%] w-[116%] max-w-none opacity-[0.06]"
+        />
+        <img
+          src={coins.url}
+          alt=""
+          className="absolute left-1/2 top-1/2 w-[220%] max-w-none -translate-x-1/2 -translate-y-1/2 rotate-[-33deg] opacity-20"
+        />
+      </div>
 
       <div className="relative mx-auto grid max-w-[1440px] items-center gap-10 px-5 pt-14 pb-0 sm:px-8 lg:grid-cols-[minmax(0,695px)_minmax(0,743px)] lg:gap-8 lg:px-[120px] lg:pt-[165px]">
         <div className="flex flex-col gap-5 pb-10 lg:pb-24">
@@ -26,7 +26,10 @@ const Hero = () => {
             <br />
             Fully{" "}
             <span className="relative inline-block">
-              <span className="absolute inset-x-0 bottom-1 -z-10 h-[60%] bg-brand-highlight" aria-hidden="true" />
+              <span
+                className="absolute inset-x-0 bottom-1 -z-10 h-[60%] rotate-[-1.47deg] bg-brand-highlight"
+                aria-hidden="true"
+              />
               Shariah-Compliant
             </span>{" "}
             <span className="relative inline-flex h-9 w-9 shrink-0 translate-y-1 items-center justify-center rounded-full bg-black align-middle">
